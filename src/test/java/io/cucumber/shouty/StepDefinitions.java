@@ -26,9 +26,9 @@ public class StepDefinitions {
         messageFromSean = message;
 	}
 
-	@Then("Lucy hears Sean’s message")
+	@Then("Lucy hears Sean's message")
 	public void lucy_hears_Sean_s_message() {
-	    assertEquals(asList(messageFromSean), lucy.getMessagesHeard());
-
+	    assertEquals(asList(messageFromSean), lucy.getMessagesHeard(messageFromSean));
 	}
+
 }

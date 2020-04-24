@@ -13,9 +13,9 @@ public class Person {
 
     }
 
-    public List<String> getMessagesHeard() {
+    public List<String> getMessagesHeard(String message) {
 		List<String> result = new ArrayList<String>();
-		result.add("free bagels at Sean's");
+		result.add(message);
 		return result;
     }
 }
