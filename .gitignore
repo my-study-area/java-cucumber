@@ -1,6 +1,7 @@
 /.idea/
 *.iml
 /target/
+java/target
 /out/
 /lib
 /build/
