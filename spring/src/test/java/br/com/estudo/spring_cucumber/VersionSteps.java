@@ -21,7 +21,7 @@ public class VersionSteps extends StepDefsDefault {
 
     @When("the client calls \\/version")
     public void the_client_calls_version() {
-        response = restTemplate.getForEntity("http://localhost:8080/version", String.class);
+        response = restTemplate.getForEntity("/version", String.class);
     }
 
     @Then("the client receives status code of {int}")
