@@ -2,6 +2,18 @@
 ## Java
 It's a free Course from Cucumber School available in [https://school.cucumber.io/courses/bdd-with-cucumber-java](https://school.cucumber.io/courses/bdd-with-cucumber-java)
 
+### Executando cucumber com Java puro
+Entre no diretório:
+```bash
+cd java
+```
+
+Execute os testes:
+```bash
+mvn clean test
+```
+
+O relatório em HTML so testes fica em: `java/target/cucumber-html-report/index.html`
 
 ## Spring
 ### Executando cucumber com Spring
